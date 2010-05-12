@@ -1,2 +1,5 @@
 .idea
-bin/target/*
+bin/
+preverified/
+RhoBundle/
+*.log
