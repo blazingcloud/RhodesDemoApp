@@ -1,0 +1,87 @@
+<div id="pageTitle">
+		<h1>Edit <%= @thing.title%></h1>
+</div>
+
+<div id="toolbar">
+    <%= link_to "Back", :action => :show, :id => @thing.object %>
+    <%= link_to "Delete", :action => :delete, :id => @thing.object %>
+</div>
+
+
+<div id="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+    	<input type="hidden" name="id" value="<%= @thing.object %>"/>
+
+        <h2 class="groupTitle">Textbox</h2>
+        <table>
+              <tr>
+                  <td width="125">Title: </td>
+                  <td><input type="text" name="thing[title]" value="<%= @thing.title %>"/></td>
+              </tr>
+
+              <tr>
+                  <td width="125">Description: </td>
+                  <td><input type="text" name="thing[description]" value="<%= @thing.description %>"/></td>
+              </tr>
+        </table>
+
+        <h2 class="groupTitle">Checkbox</h2>
+        <table>
+            <tr>
+              <td width="125">Checkbox1: </td>
+              <td><input type="checkbox" name="thing[checkbox1]" value="checkbox1" <%= checked("checkbox1",@thing.checkbox1)%>/></td>
+            </tr>
+
+            <tr>
+              <td width="125">Checkbox2: </td>
+              <td><input type="checkbox" name="thing[checkbox2]" value="checkbox2" <%= checked("checkbox2",@thing.checkbox2)%>/></td>
+            </tr>
+
+            <tr>
+              <td width="125">Checkbox3: </td>
+              <td><input type="checkbox" name="thing[checkbox3]" value="checkbox3" <%= checked("checkbox3",@thing.checkbox3)%>/></td>
+            </tr>
+        </table>
+
+        <h2 class="groupTitle">Radio Button</h2>
+        <table>
+            <tr>
+              <td width="125">Radio Button1: </td>
+              <td><input type="radio" name="thing[radio_button]"  value="radio1" <%= checked("radio1",@thing.radio_button)%>/></td>
+            </tr>
+
+            <tr>
+              <td width="125">Radio Button2: </td>
+              <td><input type="radio" name="thing[radio_button]"  value="radio2" <%= checked("radio2",@thing.radio_button)%>/></td>
+            </tr>
+
+            <tr>
+              <td width="125">Radio Button3: </td>
+              <td><input type="radio" name="thing[radio_button]"  value="radio3" <%= checked("radio3",@thing.radio_button)%>/></td>
+            </tr>
+        </table>
+
+        <h2 class="groupTitle">Select Box</h2>
+        <table>
+            <tr>
+                <td>
+                    <select name="thing[select_box]">
+                        <option value="apple" <%= selected("apple",@thing.select_box) %>>iPhone</option>
+                        <option value="android" <%= selected("android",@thing.select_box) %>>Android</option>
+                        <option value="blackberry" <%= selected("blackberry",@thing.select_box) %>>BlackBerry</option>
+                        <option value="winmo" <%= selected("winmo",@thing.select_box) %>>Windows Mobile</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h2 class="groupTitle">Text Area</h2>
+        <table>
+            <tr>
+                <td width="125">Text Area: </td>
+                <td><textarea name="thing[text_area]" rows="5" cols="30"><%= @thing.text_area %></textarea></td>
+            </tr>
+        </table>
+            <input type="submit" class="standardButton" value="Update" />
+    </form>
+</div>

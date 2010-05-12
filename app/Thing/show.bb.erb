@@ -1,0 +1,56 @@
+<div id="pageTitle">
+	<h1><%= @thing.title%></h1>
+</div>
+
+<div id="toolbar">
+        <%= link_to "Back", :action => :index %>
+        <%= link_to "Edit", :action => :edit, :id => @thing.object %>
+</div>
+
+
+<div id="content">
+
+    <table>
+      
+      <tr>
+    	<td>Title</td>
+        <td><%= @thing.title%></td>
+      </tr>
+      
+      <tr>
+    	<td>Description</td>
+        <td><%= @thing.description%></td>
+      </tr>
+
+      <tr>
+    	<td>Checkbox1</td>
+        <td><%= @thing.checkbox1%></td>
+      </tr>
+
+      <tr>
+    	<td>Checkbox2</td>
+        <td><%= @thing.checkbox2%></td>
+      </tr>
+
+      <tr>
+    	<td>Checkbox3</td>
+        <td><%= @thing.checkbox3%></td>
+      </tr>
+
+      <tr>
+    	<td>Radio Button</td>
+        <td><%= @thing.radio_button%></td>
+      </tr>
+
+      <tr>
+    	<td>Select Box</td>
+        <td><%= @thing.select_box%></td>
+      </tr>
+
+      <tr>
+    	<td>Text Area</td>
+        <td><%= @thing.text_area%></td>
+      </tr>
+      
+    </table>
+</div>

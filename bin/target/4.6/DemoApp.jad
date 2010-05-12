@@ -1,0 +1,84 @@
+RIM-COD-SHA1-9: 69 45 92 6a 4e 4e 7d c0 ff df b2 0b b0 85 89 34 ee 29 07 e2
+RIM-COD-SHA1-8: 4a a2 2b ab 26 d5 2b 80 29 a4 66 13 fc 08 b2 4e c9 bb f3 d0
+RIM-COD-SHA1-7: 8a 0b d9 4a 52 9e 73 39 79 a3 37 de 56 bc ff 4a e9 66 fe 2c
+RIM-COD-SHA1-6: 12 7b 54 80 57 40 f9 7c de 8a a4 5b b5 d9 2b 22 7d 6a 89 0e
+RIM-COD-SHA1-5: 2b 0f 25 1a c3 35 85 fe da 24 1f 59 8b 71 ad 56 74 3b aa a5
+RIM-COD-SHA1-4: c3 0c 83 84 30 b8 85 58 47 4b d8 0e 03 52 cf 2c 71 c2 56 5e
+RIM-COD-SHA1-3: 6e 46 3c f8 c2 ff 6a 40 68 62 f3 4c b7 73 42 83 4c 57 bd f2
+RIM-COD-SHA1-2: 64 c0 03 36 72 db f5 97 dc 11 f4 39 f5 21 8b 88 29 31 42 49
+RIM-COD-Size-23: 23556
+RIM-COD-SHA1-1: 80 b6 f2 4b a5 01 44 9e 3c 43 d3 41 43 eb b1 77 cc e7 cb 79
+RIM-COD-Size-22: 68240
+RIM-COD-Size-21: 86908
+RIM-COD-Size-20: 57616
+RIM-COD-URL-19: DemoApp-19.cod
+RIM-COD-URL-18: DemoApp-18.cod
+RIM-COD-URL-17: DemoApp-17.cod
+RIM-COD-URL-16: DemoApp-16.cod
+RIM-COD-URL-15: DemoApp-15.cod
+RIM-COD-URL-14: DemoApp-14.cod
+RIM-COD-URL-13: DemoApp-13.cod
+RIM-COD-URL-12: DemoApp-12.cod
+RIM-COD-Size: 94648
+RIM-COD-URL-11: DemoApp-11.cod
+RIM-COD-URL-10: DemoApp-10.cod
+MIDlet-Vendor: rhomobile
+Manifest-Version: 1.0
+RIM-COD-Size-19: 56224
+RIM-COD-Size-18: 63140
+RIM-COD-Size-17: 53508
+RIM-COD-Size-16: 87436
+RIM-COD-Size-15: 87172
+RIM-COD-Size-14: 96264
+RIM-COD-Size-13: 86020
+RIM-COD-Size-12: 92512
+RIM-COD-Size-11: 87108
+RIM-COD-Size-10: 75928
+MIDlet-Version: 1.0
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-SHA1-23: 2c b1 48 1b bd 5d a8 7e 51 8b 78 29 2b 9b 73 e9 b7 46 71 69
+RIM-COD-SHA1-22: 16 d7 5c 76 39 9b be 14 cf b3 1e ae 4d cf 1b b2 2a 8b ba 54
+RIM-COD-SHA1-21: 14 af b5 e0 30 e9 41 76 5f 1d 52 1d 62 be 4c a6 68 18 18 e3
+RIM-COD-SHA1-20: 10 09 e6 e2 f8 cd 57 de 14 c3 e5 d7 9d 9b 1d fc 8b 58 d3 7a
+RIM-COD-URL: DemoApp.cod
+RIM-COD-Creation-Time: 1273685813
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Jar-URL: DemoApp.jar
+RIM-COD-SHA1-19: 65 39 5f 77 6f f8 b3 ca a7 b8 4e 18 81 dd 9a f3 e4 00 63 6f
+RIM-COD-SHA1-18: f5 43 c5 2b 4b 2f f3 30 d4 fc 2c 07 33 26 14 e4 d4 3b 05 bb
+RIM-COD-SHA1-17: ff 85 d3 3e 2d 10 9e ab f3 bb 02 c1 8c b7 30 31 e1 a7 3e 13
+RIM-COD-SHA1-16: af 4c 2e 26 79 68 a1 d8 6e a4 3c 9b 6c 8c 4c 18 c0 c1 19 06
+RIM-COD-SHA1-15: 0b 45 bc d1 03 9e 75 b5 0d 1c 4e 0e 97 f0 56 c6 12 86 7c 7a
+RIM-COD-SHA1-14: c0 51 63 17 c3 fd c1 3f e5 24 2b 4d 34 4d 1d 3c c1 34 99 ca
+RIM-COD-SHA1-13: 38 1f 5b 07 4e 52 db eb ed 02 10 93 b2 16 a6 67 62 fd 5a 18
+RIM-COD-SHA1-12: 29 76 e6 86 e4 13 70 37 c4 88 60 12 ba 02 ec 83 d8 5c 07 2f
+RIM-COD-Size-9: 77440
+RIM-COD-SHA1-11: 8e e3 18 e7 85 94 60 c9 c7 fa 4e 2f a1 8f 99 49 dc 7d 82 5c
+RIM-COD-Size-8: 81976
+RIM-COD-SHA1-10: cb 43 42 4b bd ea a2 75 41 af e9 91 31 f2 26 77 21 c0 8a 71
+RIM-COD-Size-7: 92348
+RIM-COD-Size-6: 68648
+RIM-COD-Size-5: 69980
+RIM-COD-Size-4: 75704
+RIM-COD-Size-3: 82740
+RIM-COD-Size-2: 67672
+RIM-COD-Size-1: 96552
+MIDlet-1: DemoApp,resources/icon.png,
+MIDlet-Name: DemoApp
+RIM-COD-SHA1: 28 fb 2c 27 48 bc 7c f2 1e 55 4b 23 08 29 79 3d f3 e3 d4 6e
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bb_browser_field_api,net_rim_os,net_rim_locationapi,net_rim_bbapi_phone,net_rim_xml,net_rim_xml_org,net_rim_bbapi_invoke,net_rim_pdap
+MIDlet-Jar-Size: 1109292
+RIM-COD-URL-9: DemoApp-9.cod
+RIM-COD-URL-8: DemoApp-8.cod
+RIM-COD-URL-7: DemoApp-7.cod
+RIM-COD-URL-6: DemoApp-6.cod
+RIM-COD-URL-5: DemoApp-5.cod
+RIM-COD-URL-4: DemoApp-4.cod
+RIM-COD-URL-3: DemoApp-3.cod
+RIM-COD-URL-2: DemoApp-2.cod
+RIM-COD-URL-1: DemoApp-1.cod
+RIM-COD-Module-Name: DemoApp
+RIM-COD-URL-23: DemoApp-23.cod
+RIM-COD-URL-22: DemoApp-22.cod
+RIM-COD-URL-21: DemoApp-21.cod
+RIM-COD-URL-20: DemoApp-20.cod

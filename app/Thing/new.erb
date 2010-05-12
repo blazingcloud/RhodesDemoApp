@@ -1,0 +1,78 @@
+<div id="pageTitle">
+	<h1>New <%= @thing.title %></h1>
+</div>
+
+<div id="toolbar">
+     <div id="leftItem" class="backButton"><%= link_to "Cancel", :action => :index %></div>
+</div>
+
+<div id="content">
+    <form method="POST" action="<%= url_for :action => :create %>">
+            <input type="hidden" name="id" value="<%= @thing.object %>"/>
+
+            <h2 class="groupTitle">TextBoxes</h2>
+            <ul>
+                <li>
+                    <label for="thing[title]" class="fieldLabel">Title</label>
+                    <input type="text" name="thing[title]" <%= placeholder( "Title" ) %> />
+                </li>
+                <li>
+                    <label for="thing[description]" class="fieldLabel">Description</label>
+                    <input type="text" name="thing[description]" <%= placeholder( "Description" ) %> />
+                </li>
+            </ul>
+
+            <h2 class="groupTitle">Checkboxes</h2>
+            <ul>
+                <li>
+                    <label for="thing[checkbox1]">Checkbox1</label>
+                    <input type="checkbox" name="thing[checkbox1]" value="checkbox1" />
+                </li>
+                <li>
+                    <label for="thing[checkbox2]">Checkbox2</label>
+                    <input type="checkbox" name="thing[checkbox2]" value="checkbox2" />
+                </li>
+                <li>
+                    <label for="thing[checkbox3]">Checkbox3</label>
+                    <input type="checkbox" name="thing[checkbox3]" value="checkbox3" />
+                </li>
+            </ul>
+
+           <h2 class="groupTitle">Radio Buttons</h2>
+            <ul>
+                <li>
+                    <label for="thing[radio_button]">Radio Button1</label>
+                    <input type="radio" name="thing[radio_button]" value="radio1"/>
+                </li>
+                <li>
+                    <label for="thing[radio_button]">Radio Button2</label>
+                    <input type="radio" name="thing[radio_button]" value="radio2"/>
+                </li>
+                <li>
+                    <label for="thing[radio_button]">Radio Button3</label>
+                    <input type="radio" name="thing[radio_button]" value="radio3"/>
+                </li>
+            </ul>
+
+            <h2 class="groupTitle">Select Box</h2>
+            <ul>
+                <li>
+                    <select name="thing[select_box]">
+                        <option selected>Please select</option>
+                        <option value="apple">iPhone</option>
+                        <option value="android">Android</option>
+                        <option value="blackberry">BlackBerry</option>
+                        <option value="winmo">Windows Mobile</option>
+                    </select>
+                </li>
+            </ul>
+
+           <h2 class="groupTitle">Text Area</h2>
+            <ul>
+                <li class="textarea">
+                    <textarea name="thing[text_area]" rows="5" cols="30" ></textarea>
+                </li>
+            </ul>
+            <input type="submit" class="standardButton" value="Create" />
+    </form>
+</div>

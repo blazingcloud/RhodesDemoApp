@@ -1,0 +1,77 @@
+<div id="pageTitle">
+	<h1>Edit <%= @thing.title%></h1>
+</div>
+
+<div id="toolbar">
+    <div id="leftItem" class="backButton"><%= link_to "Cancel", :action => :show, :id => @thing.object %></div>
+    <div id="rightItem" class="regularButton"><%= link_to "Delete", :action => :delete, :id => @thing.object %></div>
+</div>
+
+<div id="content">
+    <form method="POST" action="<%= url_for :action => :update %>">
+            <input type="hidden" name="id" value="<%= @thing.object %>"/>
+            <h2 class="groupTitle">TextBoxes</h2>
+            <ul>
+                <li>
+                    <label for="thing[title]" class="fieldLabel">Title</label>
+                    <input type="text" name="thing[title]" value="<%= @thing.title%>" <%= placeholder( "Title" ) %> />
+                </li>
+                <li>
+                    <label for="thing[description]" class="fieldLabel">Description</label>
+                    <input type="text" name="thing[description]" value="<%= @thing.description%>" <%= placeholder( "Description" ) %> />
+                </li>
+            </ul>
+
+            <h2 class="groupTitle">Checkboxes</h2>
+            <ul>
+                <li>
+                    <label for="thing[checkbox1]">Checkbox1</label>
+                    <input type="checkbox" name="thing[checkbox1]" value="checkbox1" <%= checked("checkbox1",@thing.checkbox1)%>/>
+                </li>
+                <li>
+                    <label for="thing[checkbox2]">Checkbox2</label>
+                    <input type="checkbox" name="thing[checkbox2]" value="checkbox2" <%= checked("checkbox2",@thing.checkbox2)%>/>
+                </li>
+                <li>
+                    <label for="thing[checkbox3]">Checkbox3</label>
+                    <input type="checkbox" name="thing[checkbox3]" value="checkbox3" <%= checked("checkbox3",@thing.checkbox3)%>/>
+                </li>
+            </ul>
+
+           <h2 class="groupTitle">Radio Buttons</h2>
+            <ul>
+                <li>
+                    <label for="thing[radio_button]">Radio Button1</label>
+                    <input type="radio" name="thing[radio_button]" value="radio1" <%= checked("radio1",@thing.radio_button)%>/>
+                </li>
+                <li>
+                    <label for="thing[radio_button]">Radio Button2</label>
+                    <input type="radio" name="thing[radio_button]" value="radio2" <%= checked("radio2",@thing.radio_button)%>/>
+                </li>
+                <li>
+                    <label for="thing[radio_button]">Radio Button3</label>
+                    <input type="radio" name="thing[radio_button]" value="radio3" <%= checked("radio3",@thing.radio_button)%>/>
+                </li>
+            </ul>
+
+            <h2 class="groupTitle">Select Box</h2>
+            <ul>
+                <li>
+                    <select name="thing[select_box]">
+                        <option value="apple" <%= selected("apple",@thing.select_box) %>>iPhone</option>
+                        <option value="android" <%= selected("android",@thing.select_box) %>>Android</option>
+                        <option value="blackberry" <%= selected("blackberry",@thing.select_box) %>>BlackBerry</option>
+                        <option value="winmo" <%= selected("winmo",@thing.select_box) %>>Windows Mobile</option>
+                    </select>
+                </li>
+            </ul>
+
+           <h2 class="groupTitle">Textarea</h2>
+            <ul>
+                <li class="textarea">
+                    <textarea name="thing[text_area]" rows="5" cols="30" ><%= @thing.text_area%></textarea>
+                </li>
+            </ul>
+            <input type="submit" class="standardButton" value="Update" />
+    </form>
+</div>
