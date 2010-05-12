@@ -15,31 +15,31 @@
         <h2 class="groupTitle">Textbox</h2>
         <table>
               <tr>
-                  <td  class="itemLabel">Title: </td>
-                  <td><input type="text" name="thing[title]" value="<%= @thing.title %>"/></td>
+                  <td class="itemLabel">Title: </td>
+                  <td class="itemValue"><input type="text" name="thing[title]" value="<%= @thing.title %>"/></td>
               </tr>
 
               <tr>
-                  <td  class="itemLabel">Description: </td>
-                  <td><input type="text" name="thing[description]" value="<%= @thing.description %>"/></td>
+                  <td class="itemLabel">Description: </td>
+                  <td class="itemValue"><input type="text" name="thing[description]" value="<%= @thing.description %>"/></td>
               </tr>
         </table>
 
         <h2 class="groupTitle">Checkbox</h2>
         <table>
             <tr>
-              <td  class="itemLabel">Checkbox1: </td>
-              <td><input type="checkbox" name="thing[checkbox1]" value="checkbox1" <%= checked("checkbox1",@thing.checkbox1)%>/></td>
+              <td class="itemLabel">Checkbox1: </td>
+              <td class="itemValue"><input type="checkbox" name="thing[checkbox1]" value="checkbox1" <%= checked("checkbox1",@thing.checkbox1)%>/></td>
             </tr>
 
             <tr>
               <td  class="itemLabel">Checkbox2: </td>
-              <td><input type="checkbox" name="thing[checkbox2]" value="checkbox2" <%= checked("checkbox2",@thing.checkbox2)%>/></td>
+              <td class="itemValue"><input type="checkbox" name="thing[checkbox2]" value="checkbox2" <%= checked("checkbox2",@thing.checkbox2)%>/></td>
             </tr>
 
             <tr>
               <td class="itemLabel">Checkbox3: </td>
-              <td><input type="checkbox" name="thing[checkbox3]" value="checkbox3" <%= checked("checkbox3",@thing.checkbox3)%>/></td>
+              <td class="itemValue"><input type="checkbox" name="thing[checkbox3]" value="checkbox3" <%= checked("checkbox3",@thing.checkbox3)%>/></td>
             </tr>
         </table>
 
@@ -47,17 +47,17 @@
         <table>
             <tr>
               <td class="itemLabel">Radio Button1: </td>
-              <td><input type="radio" name="thing[radio_button]"  value="radio1" <%= checked("radio1",@thing.radio_button)%>/></td>
+              <td class="itemValue"><input type="radio" name="thing[radio_button]"  value="radio1" <%= checked("radio1",@thing.radio_button)%>/></td>
             </tr>
 
             <tr>
               <td class="itemLabel">Radio Button2: </td>
-              <td><input type="radio" name="thing[radio_button]"  value="radio2" <%= checked("radio2",@thing.radio_button)%>/></td>
+              <td class="itemValue"><input type="radio" name="thing[radio_button]"  value="radio2" <%= checked("radio2",@thing.radio_button)%>/></td>
             </tr>
 
             <tr>
               <td class="itemLabel">Radio Button3: </td>
-              <td><input type="radio" name="thing[radio_button]"  value="radio3" <%= checked("radio3",@thing.radio_button)%>/></td>
+              <td class="itemValue"><input type="radio" name="thing[radio_button]"  value="radio3" <%= checked("radio3",@thing.radio_button)%>/></td>
             </tr>
         </table>
 
